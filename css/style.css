@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.header{
+	background-image: url(../img/wave-5473869_1920.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100 vh;
+}
+
+
+h1{
+	text-align: center;
+	letter-spacing: 7px;
+	font-size: 40px;
+	font-weight: 100;
+	color: white;
+	background-color: 133, 170, 184;
+	height: 50px;
+	padding-top: 10px;
+}
+
+.menu-item ul{
+	margin-top: 15px;
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline;
+}
+
+.menu-item ul li a{
+	color: #060D5F;
+	font-size: 30px;
+	font-weight: 120;
+}
+.menu-item ul li a:hover{
+	color:#CF0D39;
+	transform: scale(1.2);
+	transition: 1.5s;
+}
+
+.g{
+	margin-left: 9px;
+}
+.m{
+	margin-left: 9px;
+}
+.a{
+	margin-left: 9px;
+}
+.c{
+	margin-left: 9px;
+}
+
+
+.double-form{
+	display: flex;
+	margin:50px auto;
+	/*position: relative;*/
+}
+
+.form-box2{
+	width: 430px;
+	height: 550px;
+	background:rgba(0,0,0,0.5);
+	text-align: center;
+	margin: 20px auto;
+	border-radius: 20px;
+	margin-left: 187px;
+}
+.form-body2{
+	text-align: center;
+}
+.text{
+	color: white;
+}
+
+.signup ul li h3{
+	margin: 50px auto;
+	padding-top: 10px;
+	padding: 3px;
+	height: 30px;
+	width: 250px;
+	background:#858188;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 80px;
+}
+.form-body{
+	text-align: center; 
+	display: inline;
+}
+
+.form-box{
+	width: 430px;
+	height: 550px;
+	background:rgba(0,0,0,0.3);
+	text-align: center;
+	margin: 20px auto;
+	border-radius: 20px;
+	margin-right: 170px;
+
+}
+.form-body input{
+	width: 150px;
+	padding: 3px 0px;
+	background: transparent;
+	border: 3px solid #CB3434;
+	border-radius: 3px;
+}
+
+h2{
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-weight: 200px;
+	color:#A8A0F6;
+
+}
+.button{
+	background:#858188;
+	color: red;
+	height: 100px;
+	width: 150px;
+	display: inline;
+	font-size: 16px;
+}
+
+.form-body label{
+	 color:#91AAAB;
+}
+
+.sel{
+	background-color: #E1BCC7;
+}
+
+.social-icon{
+	margin-right: 0px;
+}
+.social-icon ul{
+	text-align: right;
+	margin-top: 100px;
+}
+
+.social-icon ul li{
+	list-style: none;
+	margin-right: 0px;
+	margin: 30px 10px 0px 0px;
+}
+
+
+
+.social-icon ul li a i{
+	height:50px;
+	width:50px;
+	background: #555555;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%; 
+}
+.social-icon ul li a i:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	background: #01060B;
+}
